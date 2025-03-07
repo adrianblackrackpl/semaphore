@@ -2,6 +2,6 @@
 - hosts: servers
   tasks:
     - name: Add user sema
-      anible.builtin.user:
+      ansible.builtin.user:
         name: sema
         state: present
